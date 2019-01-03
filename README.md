@@ -19,3 +19,15 @@
   ]
 }
 ```
+
+2.组件调试 [storybook](https://github.com/storybooks/storybook) 和 [React Styleguidist](https://react-styleguidist.js.org/)
+
+3.打包分析
+> npm install --save source-map-explorer
+```json
+"scripts": {
+  "analyze": "source-map-explorer build/static/js/main.*",
+}
+```
+>npm run build  
+npm run analyze
